@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;500;600;700;800;900&family=Inter:wght@300&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Spacer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header  -->
+    <header class="header">
+        <div class="container">
+            <!-- navbar -->
+            <div class="navbar">
+
+                <div class="nav-logo">
+                    <img src="./assest/logo.png" alt="">
+                    <img src="./assest/logo content.png" alt="">
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <img src="./assest/menu.closed.png" alt="">
+                </button>
+
+
+                <div class="nav-login">
+                    <img src="./assest/User/User_02.png" alt="">
+                    <div class="nav-login-text">
+                        <p>Log In/Sign Up</p>
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="menu-wrap">
+                    <div class="tabs">
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a class="nav-link text-white" id="nav-profile-Solution" data-bs-toggle="tab" data-bs-target="#nav-Solution" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Solutions</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link text-white" id="nav-profile-FAQ" data-bs-toggle="tab" data-bs-target="#nav-FAQ" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">FAQS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" id="nav-profile-Build" data-bs-toggle="tab" data-bs-target="#nav-Build" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Build</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" id="nav-profile-Resources" data-bs-toggle="tab"
+                                    data-bs-target="#nav-Resouces" type="button" role="tab" aria-controls="nav-profile"
+                                    aria-selected="false">Resources</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" id="nav-profile-about" data-bs-toggle="tab"
+                                    data-bs-target="#nav-about" type="button" role="tab" aria-controls="nav-profile"
+                                    aria-selected="false">About us</a>
+                            </li>
+    
+                        </ul>
+                    </div>
+                    <div class="tab-content clearfix">
+                        <div class="tab-pane fade active show" id="nav-Solution" role="tabpanel" aria-labelledby="nav-home-tab">
+                           <div class="Solutions">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="Solutions-link SL">
+                                        <a href="#">Products</a>
+                                        <a href="#">Payment Processing</a>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="Solutions-link">
+                                        <a href="#">Monetyz Assets</a>
+                                    </div>
+                                </div>
+                            </div>
+                           </div>
+                        </div>  
+                        <div class="tab-pane fade" id="nav-FAQ" role="tabpanel" aria-labelledby="nav-profile-tab">
+                            <div class="faq">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="Faq-links SL">
+                                            <a href="#">Application</a>
+                                            <a href="#">FAQ</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="Faq-links">
+                                            <a href="#">Bank</a>
+                                        </div>
+                                    </div>
+                                </div>
+                               </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-Build" role="tabpanel" aria-labelledby="nav-profile-tab">
+                            <div class="Build">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="Build-links SL">
+                                            <a href="#">Register</a>
+                                            <a href="#">Mint</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="Build-links">
+                                            <a href="#">Swap</a>
+                                            <a href="#">APIs</a>
+                                        </div>
+                                    </div>
+                                </div>
+                               </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-Resouces" role="tabpanel" aria-labelledby="nav-profile-tab">
+                            <div class="Resources">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="Resources-links SL">
+                                            <a href="#">FAQ</a>
+                                            <a href="#">Blog</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="Resources-links">
+                                            <a href="#">Regulatory News</a>
+                                            <a href="#">Content Library</a>
+                                        </div>
+                                    </div>
+                                </div>
+                               </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-about" role="tabpanel" aria-labelledby="nav-profile-tab">
+                            <div class="About-us">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="Abouts-links SL">
+                                        <a href="#">About The MoneyVerse</a>
+                                        <a href="#">Social Impact</a>
+                                        <a href="#">Sustainability</a>
+                                        <a href="#">Roadmap</a>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="Abouts-links">
+                                        <a href="#">Contact Us</a>
+                                        <a href="#">Our Team</a>
+                                        <a href="#">MNYV Token</a>
+                                    </div>
+                                </div>
+                            </div>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="img">
+        <img src="./assest/background.png" alt="">
+    </div>
+
+    <div class="banner">
+        <div class="container">
+            <div class="banner-heading">
+                <h3>Register Assets. <br>
+                    Mint Money. <br>
+                    Build Communities!</h3>
+            </div>
+            <div class="banner-img">
+                <img src="./assest/line.png" alt="">
+            </div>
+            <div class="banner-content">
+                <span>Mission</span>
+                <h6>A FinTech DAO for Wealth-Creation & <br> Sustainable Community Development.</h6>
+                <p>The Moneyverse is a DAO operating a Money Service Business which <br> prevents poverty by
+                    providing the payment rails, applications, and <br>systems required for nations,
+                    organizations, & persons to register <br> assets, mint money, and build sustainable
+                    communities.</p>
+            </div>
+        </div>
+    </div>
+
+    <section class="space">
+        <div class="container">
+            <div class="spacer-heading">
+                <h6>We’ve designed a new world where we all <br> have equal access to economic prosperity!</h6>
+                <div class="spacer-img">
+                    <img src="./assest/line.png" alt="">
+                </div>
+            </div>
+            <div class="spacer-content">
+                <p>Welcome to a new world where universal access to wholistic economic solutions <br> enable individuals
+                    and organizations to harmoniously coexist with their cosmic <br> society and local environment. </p>
+                <p>Our partners are helping us to reach sectors of the globe in dire need of <br> change, bringing
+                    fiscal solidarity to war-torn countries, impoverished <br> communities, and lost nations.</p>
+            </div>
+            <div class="spacer-button">
+                <button>Get Started <img src="./assest/Arrow_Left_LG.png" alt=""></button>
+            </div>
+            <div class="achievements">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="achievemens">
+                            <div class="achiev-img">
+                                <img src="./assest/triangle.png" alt="">
+                            </div>
+                            <div class="achiev-content">
+                                <p>700M+ in tangible assets</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="achievemens">
+                            <div class="achiev-img">
+                                <img src="./assest/map.png" alt="">
+                            </div>
+                            <div class="achiev-content">
+                                <p>Spread over 13 countries</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="achievemens">
+                            <div class="achiev-img">
+                                <img src="./assest/Group 218.png" alt="">
+                            </div>
+                            <div class="achiev-content">
+                                <p>Preventing Global Poverty</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="values">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="value">
+                            <div class="value-heading">
+                                <h3> Wealth Creation <br> Architecture</h3>
+                            </div>
+                            <div class="value-img">
+                                <img src="./assest/Rectangle 2901.png" alt="">
+                            </div>
+                            <div class="value-content">
+                                <p>Providing comprehensive solutions <br> to tap into the vast universe of <br>wealth
+                                    and prosperity. By facilitating <br> the global exchange of wealth, <br> knowledge,
+                                    and resources, we strive <br> to create a more interconnected and <br>prosperous
+                                    world.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="value">
+                            <div class="value-heading">
+                                <h3> Connecting Worlds</h3>
+                            </div>
+                            <div class="value-img">
+                                <img src="./assest/Rectangle 2901.png" alt="">
+                            </div>
+                            <div class="value-content">
+                                <p>Bridging the world of refinancing to <br> the world of commodities, creating <br>
+                                    ways for different types of wealth to <br> be shared and exchanged in the <br> most
+                                    meaningful ways.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="value">
+                            <div class="value-heading">
+                                <h3> True-Value <br> Unveiled</h3>
+                            </div>
+                            <div class="value-img">
+                                <img src="./assest/Rectangle 2901.png" alt="">
+                            </div>
+                            <div class="value-content">
+                                <p>Shining a spotlight on invaluable <br> assets currently laying dormant to <br> help
+                                    wealth reach all corners of the <br> world. The Moneyverse allows us to <br> explore
+                                    new innovations and engage <br> in mutually beneficial exchanges.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="value-button">
+                <button>Get Started <img src="./assest/Arrow_Left_LG.png" alt=""></button>
+            </div>
+            <div class="value-cards">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="value-card">
+                            <div class="VC-heading">
+                                <div class="VC-img">
+                                    <img src="./assest/Globe.svg" alt="">
+                                </div>
+                                <h4>Maximizing Success <br>
+                                    & Potential</h4>
+                            </div>
+                            <div class="VC-content">
+                                <p>Maximize the potential of your assets. <br> Benefit from secure, efficient, and
+                                    <br>interconnected financial transactions,<br> enabling you to transact
+                                    globally,<br> expand your business, and access a <br> wide range of financial
+                                    opportunities.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="value-card">
+                            <div class="VC-heading">
+                                <div class="VC-img">
+                                    <img src="./assest/Wavy_Check.svg" alt="">
+                                </div>
+                                <h4>Proven Tech that Works
+                                    & Empowers</h4>
+                            </div>
+                            <div class="VC-content">
+                                <p>Maximize the potential of your assets. <br> Benefit from secure, efficient, and
+                                    <br>interconnected financial transactions,<br> enabling you to transact
+                                    globally,<br> expand your business, and access a <br> wide range of financial
+                                    opportunities.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="patners">
+        <div class="container">
+            <h5>Our Patners</h5>
+            <img src="./assest/Rectangle 2901.png" alt="">
+        </div>
+    </section>
+
+
+    <!-- footer  -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-logo">
+                <img src="./assest/Group 408.png" alt="">
+            </div>
+            <div class="footer-contents">
+                <div class="footer-content">
+                    <p>Solutions</p>
+                    <a href="#">Products</a>
+                    <a href="#">Payment Processing</a>
+                    <a href="#">Monetyz Assets</a>
+                </div>
+                <div class="footer-content">
+                    <p>FAQS</p>
+                    <a href="#">Applications</a>
+                    <a href="#">Market</a>
+                    <a href="#">Bank</a>
+                </div>
+                <div class="footer-content">
+                    <p>BUILD</p>
+                    <a href="#">Register</a>
+                    <a href="#">Mint</a>
+                    <a href="#">Swap</a>
+                    <a href="#">APIs</a>
+                </div>
+                <div class="footer-content">
+                    <p>Resources</p>
+                    <a href="#">FAQ</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Regulatory News</a>
+                    <a href="#">Content Library</a>
+                </div>
+                <div class="footer-content">
+                    <p>ABOUT US</p>
+                    <a href="#">About The MoneyVerse</a>
+                    <a href="#">Social Impact</a>
+                    <a href="#">Sustainability</a>
+                    <a href="#">Roadmap</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Our Team</a>
+                    <a href="#">MNYV Token</a>
+
+                </div>
+            </div>
+
+            <div class="Copyright">
+                <p>©2023 The Money Verse LLC. All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

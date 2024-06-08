@@ -1,0 +1,685 @@
+body {
+    background: #221A2D;
+    ;
+}
+
+img {
+    max-width: 100%;
+}
+
+.nav-login {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50px;
+}
+
+.nav-login img {
+    padding-top: 9px;
+    padding-left: 10px;
+}
+
+.header {
+    padding: 66px 0px 45px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+
+}
+
+.navbar-toggler {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30px;
+}
+
+.nav-login-text p {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.55px;
+    padding-top: 20px;
+    width: 100px;
+}
+
+.banner {
+    background: url(./assest/Earth.png) no-repeat center;
+    padding-top: 248px;
+    background-size: cover;
+    padding-bottom: 47px;
+}
+
+.img {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+}
+
+.banner-heading h3 {
+    color: #FFF;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 124px;
+    font-style: normal;
+    font-weight: 500;
+  line-height: 1;
+    margin: 0;
+}
+
+.banner-img img {
+    padding-top: 46px;
+}
+
+.banner-content {
+    padding-top: 15px;
+}
+
+.banner-content span {
+    color: #CDCDCD;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.banner-content h6 {
+    color: #FFF;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 15px;
+    margin: 0;
+}
+
+.banner-content p {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 35px;
+    margin-bottom: 157px;
+}
+
+.space {
+    background: url(./assest/spacer.img.png);
+    padding-bottom: 461px;
+}
+
+.spacer-heading h6 {
+    color: #FFF;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 103.1%;
+    letter-spacing: -1.28px;
+    padding-top: 265px;
+    margin: 0;
+}
+
+.spacer-img {
+    padding-top: 20px;
+}
+
+.spacer-content {
+    padding-top: 7px;
+}
+
+.spacer-content p {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.76px;
+    padding-top: 23px;
+}
+
+.spacer-button {
+    padding-top: 59px;
+}
+
+.spacer-button button {
+    padding: 12px 12px 13px 56px;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.76px;
+    border-radius: 2px;
+    background: #9F52FF;
+}
+
+.achievements {
+    padding-top: 268px;
+}
+
+.achiev-img {
+    text-align: center;
+}
+
+.achiev-content p {
+    color: #FFF;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 41.368px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110.6%;
+    letter-spacing: -0.827px;
+    padding-top: 31px;
+    text-align: center;
+}
+
+.values {
+    padding-top: 392px;
+}
+
+.value-heading h3 {
+    color: #FFF;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 103.1%;
+    letter-spacing: -1.28px;
+    margin: 0;
+}
+
+.value-img {
+    padding-top: 20px;
+}
+
+.value-content p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.375px;
+    margin: 0;
+    padding-top: 30px;
+}
+
+.value-button button {
+    padding: 13px 12px 13px 56px;
+    border: none;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.76px;
+    background-color: #9F52FF;
+    border-radius: 15px;
+}
+
+.value-button {
+    text-align: center;
+    padding-top: 125px;
+}
+
+.VC-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.VC-img {
+    padding: 9px 9px 6px 9px;
+    margin-top: 79px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #261D39 0%, #3D3650 100%);
+    height: fit-content;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.03), 0px 1px 3px 0px rgba(0, 0, 0, 0.03), 0px 6px 6px 0px rgba(0, 0, 0, 0.03), 0px 13px 8px 0px rgba(0, 0, 0, 0.01), 0px 24px 10px 0px rgba(0, 0, 0, 0.00), 0px 37px 10px 0px rgba(0, 0, 0, 0.00);
+}
+
+.VC-heading h4 {
+    margin: 0;
+    color: #ECECEC;
+    text-align: right;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 103.1%;
+    /* 32.992px */
+    padding-top: 100px;
+}
+
+.value-card {
+    border-radius: 32px;
+    border: 0.5px solid #FFF;
+    background: rgba(134, 134, 134, 0.10);
+    backdrop-filter: blur(7.5px);
+    padding: 0px 66px 81px 63px;
+    margin-top: 293px;
+}
+
+.VC-content p {
+    color: #DDD;
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.54px;
+    padding-top: 123px;
+}
+
+.patners h5 {
+    color: #FFF;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.28px;
+    padding-top: 35px;
+    margin: 0;
+}
+
+.patners img {
+    padding-top: 37px;
+    padding-bottom: 527px;
+}
+
+.footer-contents {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 59px;
+    padding-left: 76px;
+}
+
+.footer-content a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding-top: 5px;
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.66px;
+}
+
+.footer-content p {
+    color: #BEBEBE;
+    font-family: 'Inter', sans-serif;
+    font-size: 11.019px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.606px;
+    text-transform: uppercase;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.Copyright p {
+    color: #DADADA;
+    font-family: 'Inter', sans-serif;
+    font-size: 16.982px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.934px;
+    text-align: center;
+    padding-top: 164px;
+}
+
+.Solutions-link a {
+    display: block;
+    text-decoration: none;
+    color: #bbbbbb;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.Faq-links a {
+    display: block;
+    text-decoration: none;
+    color: #bbbbbb;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.Build-links a {
+    display: block;
+    text-decoration: none;
+    color: #bbbbbb;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.Resources-links a {
+    display: block;
+    text-decoration: none;
+    color: #bbbbbb;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.Abouts-links a {
+    display: block;
+    text-decoration: none;
+    color: #bbbbbb;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-wrap {
+    background-color: rgb(51, 44, 44);
+}
+
+.menu-wrap {
+    background-color: rgb(101 88 88);
+}
+
+.menu-wrap {
+    background-color: rgb(101 88 88);
+    padding: 40px 20px 288px 20px;
+    border-radius: 55px;
+    width: 100%;
+}
+
+.nav .nav-link:hover {
+    margin-bottom: 12px;
+    border-bottom: 3px solid purple;
+    transition: 0.4s;
+}
+
+.tabs ul li {
+    padding: 8px 40px;
+    font-size: 30px;
+}
+
+.Solutions {
+    padding-left: 176px;
+    padding-top: 55px;
+}
+
+.faq {
+    padding-left: 176px;
+    padding-top: 55px;
+}
+
+.Build {
+    padding-left: 176px;
+    padding-top: 55px;
+}
+
+.Resources {
+    padding-left: 176px;
+    padding-top: 55px;
+    ;
+}
+
+.About-us {
+    padding-left: 176px;
+    padding-top: 55px;
+}
+
+ .SL::after {
+    content: '';
+    width: 2px;
+    height: 33%;
+    background-color: #8a809d;
+    position: absolute;
+    left: 622px;
+    top: 232px;
+}
+
+.tabs {
+    border-bottom: 3px solid #7f7373;
+    padding-bottom: 20px;
+}
+
+.Solutions-link a{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.Solutions-link a::after{
+    content: '';
+    background: url(./assest/Arrow_Left_LG.png) no-repeat center;
+    display: block;
+    width: 44px;
+    height: 40px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease;
+    margin-top: 6px;
+}
+.Solutions-link a:hover::after{
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s ease;
+    transform: translateX(30px);
+}
+
+
+.nav {
+    justify-content: center;
+}
+@media(max-width:1400px){
+    .banner-heading h3 {
+        font-size: 113px;
+    }
+    .banner-content span{
+        font-size: 40px;
+    }
+    .banner-content h6{
+        font-size: 50px;
+    }
+    .banner-content p{
+        font-size: 25px;
+    }
+    .spacer-heading h6 {
+        font-size: 60px;
+    }
+    .spacer-content p{
+        font-size: 28px;
+    }
+    .achiev-content p{
+        font-size: 34.368px;
+    }
+    .header {
+        padding: 25px 0px 45px;
+    }
+    .value-heading h3 {
+        font-size: 59px;
+    }
+    .value-content p{
+         font-size: 22px;
+    }
+    .VC-heading h4{
+    font-size: 22px;
+}
+.VC-content p{
+    font-size: 25px;
+}
+.value-card{
+    height: 68%;
+}
+
+
+}
+@media(max-width:1200px){
+    .navbar-toggler{
+        top: 20px;
+        left: 56%;
+    }
+    .menu-wrap  .tabs .nav .nav-item  .nav-link{
+        font-size: 16px;
+    } 
+    .nav-logo img{
+        width: 40%;
+    }
+
+    .Solutions-link a{
+        font-size: 16px;
+    }
+    .Faq-links a{
+        font-size: 16px;
+    }
+    .Resources-links a{
+        font-size: 16px;
+    }
+    .Abouts-links a{
+        font-size: 16px;
+    }
+  
+    .banner-heading h3{
+        font-size: 85px;
+    }
+    .banner-content span{
+        font-size: 35px;
+    }
+    .banner-content h6 {
+        font-size: 45px;
+    }
+    .banner-content p {
+        font-size: 21px;
+    }
+    .banner{
+        padding-top: 190px;
+    }
+    .SL::after {
+        left: 511px;
+    }
+
+    .patners img{
+        padding-bottom: 100px;
+    }
+}
+
+@media(max-width:992px){
+    .value-heading h3 {
+        font-size: 30px;
+    }
+    .value-content p {
+        font-size: 15px;
+    }
+    .tabs ul li {
+        padding: 8px 12px;
+    }
+    .About-us {
+        padding-left: 40px;
+        padding-top: 30px;
+    }
+    .SL::after {
+        left: 324px;
+    }
+    .Abouts-links, .Solutions-link, .Faq-links, .Build-links, .Resources-links{
+        text-align: start;
+    }
+    .nav-logo:nth-child(1){
+        width: 20%;
+    }
+    .value-card{
+        padding-inline: 30px;
+        padding-block: 20px;
+    }
+    .VC-content p {
+        font-size: 16px;
+        padding-top: 30px;
+    }
+    .space{
+        padding-bottom: 100px ;
+    }
+    .values{
+        padding-top: 100px;
+    }
+    .value-card {
+        height: fit-content;
+    }
+    .VC-heading h4{
+        padding-top: 50px;
+    }
+    .VC-img{
+        margin-top: 50px;
+    }
+
+}
+@media(max-width:768px){
+    .nav-login{
+        display: none;
+    }
+ .navbar-toggler{
+    margin-left: 10rem;
+ }  
+ .banner-heading h3 {
+    font-size: 70px;
+}
+.SL::after {
+    left: 264px;
+}
+.menu-wrap{
+    padding-bottom: 50px;
+}
+.menu-wrap .tabs .nav .nav-item .nav-link{
+    padding: 0;
+}
+.Solutions, .faq , .Build, .Resources, .About-us{
+    padding-left: 50px;
+    padding-top: 40px;
+}
+
+}
+@media(max-width:576px){
+    .nav-logo img{
+        width: 40%;
+    }
+    .banner-heading h3 {
+        font-size: 45px;
+    }
+    .footer-contents{
+        display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 10px;
+    }
+    .footer-content{
+        padding-top: 20px;
+    }
+    .navbar-toggler {
+        margin-left: 71px;
+    }
+    .tabs ul li {
+        padding: 4px 5px;
+    }
+    .menu-wrap .tabs .nav .nav-item .nav-link {
+        font-size: 10px;
+    }
+    .Solutions, .faq, .Build, .Resources, .About-us {
+        padding-left: 0;
+    }
+    .Solutions-link a {
+        font-size: 14px;
+    }
+    .SL::after {
+        left: 122px;
+        top: 192px;
+    }
+}
